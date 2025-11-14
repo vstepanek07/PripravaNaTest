@@ -19,7 +19,7 @@
             hrac[3] = "Vašek";
             hrac[4] = "Jirka";
 
-            int pole = 0;
+            
 
 
 
@@ -42,7 +42,7 @@
                     if (hodyKostkou[i] < 1 || hodyKostkou[i] > 6)
                     {
                         Console.WriteLine($"Pole {i + 1} hráče {hrac[i]} obsahuje neplatnou hodnotu hodu kostkou!!!!");
-                        return;
+                       
                     }
                     soucetHodu = soucetHodu + hodyKostkou[i];
 
@@ -63,7 +63,7 @@
             StatistikaHodu(hodyKostkou,hrac);
 
 
-            int[] cisla = { 3, 4, 10, 15 };
+            int[] cisla = { 3, 7, 10, 15 };
             int i = 0;
             while (i < cisla.Length)
             {
