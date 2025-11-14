@@ -58,6 +58,7 @@
                 Console.WriteLine($"Největší hod je: {maxHod}");
 
             }
+
             StatistikaHodu(hodyKostkou);
 
         }
