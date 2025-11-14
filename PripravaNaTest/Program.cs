@@ -52,6 +52,7 @@
                     }
                     i++;
 
+
                 }
 
                 Console.WriteLine($"Součet všech hodů je: {soucetHodu}");
